@@ -1,0 +1,78 @@
+#main {
+  min-height: 500px;
+}
+nav {
+  float: right;
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+footer {
+  padding: 10px;
+}
+.avatar {
+  text-align: center;
+  overflow: hidden;
+}
+.avatar img {
+  display: block;
+}
+.name {
+  min-width: 150px;
+  max-width: 150px;
+      width: 150px;
+}
+.avatar {
+  min-width: 150px;
+  max-width: 150px;
+      width: 150px;
+}
+.buttons {
+  min-width: 220px;
+  max-width: 220px;
+      width: 220px;
+}
+.website {
+  min-width: 220px;
+  max-width: 220px;
+      width: 220px;
+}
+.about {
+  min-width: 220px;
+  max-width: 220px;
+      width: 220px;
+}
+.disabled td {
+  color: #999;
+  background: #f0f0f0;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  top: 50px;
+  text-align: center;
+}
+#users {
+  min-height: 500px;
+}
+
+td {
+  word-wrap: break-word;
+}
+textarea {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 100px;
+  opacity: 0.5;
+  background: transparent;
+}
+textarea:focus {
+  background: #fff;
+  opacity: 1.0;
+}
